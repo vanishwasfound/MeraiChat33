@@ -6,15 +6,15 @@ import { useState, useEffect, useRef } from 'react'; // Import useRef hook
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
-// Firebase configuration
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCb3zS3eGrku-Kg9n6LKU3z6TRCImRZAZk",
-  authDomain: "chatweb-34959.firebaseapp.com",
-  projectId: "chatweb-34959",
-  storageBucket: "chatweb-34959.appspot.com",
-  messagingSenderId: "436932697919",
-  appId: "1:436932697919:web:30ea971e78c0b33fcdfd8a",
-  measurementId: "G-78X71JSH61"
+  apiKey: "AIzaSyAuIDJgBZKSnJPqDW60t5qgbqKb59MN5Zw",
+  authDomain: "merai33.firebaseapp.com",
+  projectId: "merai33",
+  storageBucket: "merai33.appspot.com",
+  messagingSenderId: "949595543208",
+  appId: "1:949595543208:web:fd2553d054e0a22307549d",
+  measurementId: "G-W1WZ5RS1MR"
 };
 
 // Initialize Firebase
